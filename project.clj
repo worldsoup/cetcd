@@ -7,5 +7,5 @@
                  [http-kit "2.1.16"]
                  [clj-http "0.7.8"]
                  [cheshire "5.2.0"]
-                 [slingshot "0.10.3"]
+                 [slingshot "0.10.2"]
                  [com.cemerick/url "0.1.0"]])

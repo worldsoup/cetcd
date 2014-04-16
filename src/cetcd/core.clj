@@ -44,7 +44,7 @@
         parse-response
         callback)))
 
-(defn api-req [method path & {:keys [callback] :as opts}]
+(defn api-req [path method & {:keys [callback] :as opts}]
   (let [resp (http/request (merge {:method method
                                    :url (format "%s/%s" (base-url) path)}
                                   opts)
